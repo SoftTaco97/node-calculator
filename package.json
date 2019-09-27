@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "The purpose of this program was to learn more about unit testing using the [mocha.js](https://mochajs.org/) framework and the [gulp.js](https://gulpjs.com/) task runner.",
+  "main": "src/calc.js",
+  "scripts": {
+    "test": "gulp test",
+    "dev": "gulp dev",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.1",
+    "gulp-nodemon": "^2.4.2",
+    "mocha": "^6.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
